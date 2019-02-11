@@ -263,6 +263,11 @@
                 <configuration>
                     <source>1.5</source>
                     <target>1.5</target>
+                  <manifest>
+                  <addClasspath>true</addClasspath>
+                  <classpathPrefix>lib/</classpathPrefix>
+                  <mainClass>com.mycompany.app.App</mainClass>
+                  </manifest>
                 </configuration>
             </plugin>
             <plugin>
